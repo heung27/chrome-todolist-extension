@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.chakra-checkbox:hover {
+  background-color: aliceblue;
+}
+
+.chakra-checkbox:hover .delete-icon {
+  display: inline-block;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

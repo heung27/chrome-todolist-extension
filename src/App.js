@@ -2,7 +2,7 @@ import "./App.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import { Grid, GridItem } from "@chakra-ui/react";
 import { Header } from "./components/Header";
-import { ToDoItem } from "./components/ToDoItem";
+import { Main } from "./components/Main";
 import { Container } from "@chakra-ui/react";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
             <Header />
           </GridItem>
           <GridItem>
-            <ToDoItem />
+            <Main />
           </GridItem>
         </Grid>
       </Container>
